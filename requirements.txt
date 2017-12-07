@@ -1,0 +1,9 @@
+pyshp
+matplotlib
+xlrd
+openpyxl
+colour
+Shapely
+progressbar2
+fiona
+deepdiff
