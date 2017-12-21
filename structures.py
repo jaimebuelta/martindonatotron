@@ -291,7 +291,7 @@ class Region(object):
     def shape(self):
         if not self._shape:
             from shapely.ops import cascaded_union
-            all_shapes = (m.shapely for m in self.municipalities)
+            all_shapes = [m.shapely for m in self.municipalities]
             self._shape = cascaded_union(all_shapes)
         return self._shape
 
