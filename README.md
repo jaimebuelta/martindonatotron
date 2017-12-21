@@ -34,10 +34,17 @@ In the repo there are pregenerated json files with Murcia (murcia.json) and the 
 
 Remember to add -p to display the map.
 
+# requirements
+
+Install with the requirements.txt file
+
+    pip install -r requirements.txt
+
+# Map types
+
 The following types of map are supported
 
-regions
----
+## regions
 
 Generate NUMBER equipopulous regions. By default, based on the most populated cities. A file can be created to seed the 
 initial cities per region. Check example_seed.txt.
@@ -50,16 +57,14 @@ python2 martindonatotron.py --in murcia.json -t regions -n 5 -p
 interactive mode can be used to generate the seed as well.
 
 
-general
-----
+## general
 
 Display all municipalities in different colours
 
-histogram
-----
+## histogram
+
 Display municipalities with different colours based on their population
 
-only
----
+## only
 
 Display only the municipalities with population between --only-min and --only-max. The rest will appear in a lighter shade.
