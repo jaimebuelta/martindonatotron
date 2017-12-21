@@ -833,8 +833,7 @@ class World(object):
         all_populations = sorted(mun.population for mun in self.municipalities)
         max_population = all_populations[-1]
         min_population = all_populations[0]
-        EQUAL_GROUPS = False
-        if EQUAL_GROUPS:
+        if same_size:
             group_size = len(all_populations) / num_groups
             cutting_points = [all_populations[i * group_size]
                               for i in xrange(1, num_groups)]

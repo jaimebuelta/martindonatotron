@@ -253,7 +253,7 @@ def equipopulous(plot, number_of_regions, interactive, world,
 
 
 def histogram(plot, verbose, world):
-    NUM_GROUPS = 30
+    NUM_GROUPS = 6
     histogram = world.population_histogram(NUM_GROUPS)
     colours = {}
     available_colours = generate_gradient(NUM_GROUPS)
