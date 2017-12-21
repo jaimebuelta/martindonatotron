@@ -56,6 +56,7 @@ python2 martindonatotron.py --in murcia.json -t regions -n 5 -p
 
 interactive mode can be used to generate the seed as well.
 
+![Example histogram](https://github.com/jaimebuelta/martindonatotron/blob/master/imgs/example_regions.png)
 
 ## general
 
@@ -65,6 +66,10 @@ Display all municipalities in different colours
 
 Display municipalities with different colours based on their population
 
+![Example histogram](https://github.com/jaimebuelta/martindonatotron/blob/master/imgs/example_histogram.png)
+
 ## only
 
 Display only the municipalities with population between --only-min and --only-max. The rest will appear in a lighter shade.
+
+![Example histogram](https://github.com/jaimebuelta/martindonatotron/blob/master/imgs/example_only.png)
